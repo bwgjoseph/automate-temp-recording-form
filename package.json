@@ -1,0 +1,17 @@
+{
+  "name": "automate-temp-recording-form",
+  "version": "1.0.0",
+  "description": "automatically fill up the daily temperature recording",
+  "main": "index.js",
+  "scripts": {
+    "imlazy": "node . \"Name\" \"ID\" \"PC\" \"Type\" \"Temperature\""
+  },
+  "author": {
+    "name": "bwgjoseph",
+    "email": "josephgan@live.com.sg"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^2.1.1"
+  }
+}
