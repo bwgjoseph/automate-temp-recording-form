@@ -47,12 +47,12 @@ const formPCs = [
   //   process.exit(1);
   // }
 
-  if (isNaN(temperature)) {
+  if (isNaN(parseFloat(temperature))) {
     console.error('Invalid input');
     process.exit(1);
   }
 
-  if (parseInt(temperature) <= 35 || parseInt(temperature) >= 42) {
+  if (parseFloat(temperature) < 35.0 || parseFloat(temperature) > 42) {
     console.error('Please enter a decimal between 35 and 42 (inclusive)');
     process.exit(1);
   }
